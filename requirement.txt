@@ -1,0 +1,22 @@
+# load data from .env
+
+python-dotenv
+
+# framework
+langchain
+langchain-core
+langchain-community
+
+# LLM provider
+langchain-groq
+langchain-text-splitters
+
+# vectore store
+FAISS-cpu
+
+# notebook
+jupyter
+ipykernel
+
+# web app
+streamlit
