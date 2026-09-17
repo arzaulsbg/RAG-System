@@ -1,0 +1,1441 @@
+TECHNOVA SOLUTIONS PVT. LTD.
+EMPLOYEE HR POLICY HANDBOOK
+
+Document: Employee HR Policy Handbook
+Version: 3.0
+Effective Date: January 1, 2026
+
+IMPORTANT:
+This is fictional content created for RAG system practice and demonstration. It is not a real company's HR policy.
+
+============================================================
+1. COMPANY OVERVIEW
+============================================================
+
+TechNova Solutions Pvt. Ltd. is a fictional technology company providing software development, cloud computing, artificial intelligence, cybersecurity, and consulting services.
+
+The company employs full-time employees, part-time employees, interns, contractors, and temporary workers.
+
+The purpose of this handbook is to define workplace rules, employee benefits, responsibilities, leave policies, attendance requirements, compensation practices, and employee conduct standards.
+
+============================================================
+2. EMPLOYMENT TYPES
+============================================================
+
+2.1 Full-Time Employee
+
+A full-time employee normally works 40 hours per week.
+
+Full-time employees are eligible for benefits according to their employment agreement and applicable company policies.
+
+2.2 Part-Time Employee
+
+A part-time employee works fewer than 40 hours per week.
+
+Benefits may differ from full-time employees depending on the employee's contract.
+
+2.3 Intern
+
+Interns are individuals hired for a temporary learning and work experience program.
+
+Interns:
+- Must follow company policies.
+- Must maintain assigned working hours.
+- May receive a stipend according to their internship agreement.
+- Are not automatically eligible for all full-time employee benefits.
+
+2.4 Contractor
+
+Contractors provide services under a contractual agreement.
+
+Contractors must comply with security, confidentiality, workplace safety, and acceptable-use policies.
+
+2.5 Temporary Employee
+
+Temporary employees are hired for a predefined period or specific project.
+
+Their employment automatically ends according to the terms of their contract unless extended.
+
+============================================================
+3. RECRUITMENT AND HIRING POLICY
+============================================================
+
+TechNova follows a structured hiring process.
+
+Typical hiring stages are:
+1. Application
+2. Resume screening
+3. Recruiter discussion
+4. Technical/functional interview
+5. Managerial interview
+6. HR interview
+7. Background verification
+8. Offer
+9. Documentation
+10. Joining
+
+3.1 Equal Opportunity
+
+Employment decisions should be based on job-related qualifications, skills, experience, and business requirements.
+
+The company does not permit discriminatory treatment based on legally protected characteristics.
+
+3.2 Background Verification
+
+Selected candidates may be required to provide information necessary for background verification.
+
+False information or intentionally withheld material information may result in withdrawal of an offer or disciplinary action.
+
+3.3 Employee Referral
+
+Employees may refer candidates for open positions.
+
+The referring employee must not misrepresent the candidate's qualifications.
+
+============================================================
+4. ONBOARDING POLICY
+============================================================
+
+Every new employee must complete the onboarding process.
+
+Onboarding generally includes:
+- Identity verification
+- Employment documentation
+- Bank/payroll information
+- Emergency contact
+- Company policy acknowledgment
+- IT account creation
+- Security training
+- Team introduction
+- Role-specific training
+
+Onboarding Timeline:
+
+Day 1:
+- HR orientation
+- Documentation
+- IT setup
+
+First Week:
+- Team introduction
+- Security training
+- Role orientation
+
+First 30 Days:
+- Role-specific training
+- Initial performance discussion
+
+First 90 Days:
+- Probation/performance review where applicable
+
+============================================================
+5. PROBATION POLICY
+============================================================
+
+New employees may be placed on probation for six months, unless their employment agreement specifies another period.
+
+During probation, the employee's:
+- Performance
+- Attendance
+- Communication
+- Technical skills
+- Teamwork
+- Workplace conduct
+
+may be evaluated.
+
+The company may confirm employment, extend probation where permitted, or end employment according to applicable terms.
+
+============================================================
+6. WORKING HOURS POLICY
+============================================================
+
+Standard working hours are:
+Monday-Friday, 9:00 AM-6:00 PM.
+
+Employees normally receive a lunch break according to team scheduling.
+
+Certain teams may operate different schedules because of:
+- Customer support
+- International clients
+- Production operations
+- Security monitoring
+- Business requirements
+
+Managers are responsible for communicating team-specific schedules.
+
+============================================================
+7. ATTENDANCE POLICY
+============================================================
+
+Employees are expected to maintain accurate attendance records.
+
+Attendance may be recorded through:
+- Company attendance software
+- Employee portal
+- Approved biometric system
+- Manager-approved attendance mechanism
+
+Attendance Responsibilities:
+
+Employees must:
+- Report to work on time.
+- Record attendance accurately.
+- Inform their manager about unexpected absence.
+- Follow their team's working schedule.
+
+Unauthorized Absence:
+
+An employee who fails to report to work without informing the appropriate manager may be considered absent without authorization.
+
+Repeated unauthorized absence may lead to disciplinary action.
+
+============================================================
+8. LATE ARRIVAL POLICY
+============================================================
+
+An employee arriving after their scheduled start time is considered late.
+
+Occasional unavoidable delays should be communicated to the manager.
+
+Repeated lateness may trigger:
+1. Informal discussion
+2. Written warning
+3. Performance/attendance improvement plan
+4. Further disciplinary action
+
+depending on circumstances and applicable company procedures.
+
+============================================================
+9. REMOTE WORK POLICY
+============================================================
+
+Eligible employees may work remotely when their role and business requirements permit.
+
+Remote employees must:
+- Remain available during agreed working hours.
+- Attend required meetings.
+- Maintain secure internet access.
+- Protect company information.
+- Use approved devices and software.
+- Maintain a professional working environment.
+
+Remote work is not an automatic entitlement and may be subject to manager or business approval.
+
+============================================================
+10. HYBRID WORK POLICY
+============================================================
+
+Some departments may follow a hybrid schedule.
+
+Example:
+- Monday: Office
+- Tuesday: Remote
+- Wednesday: Office
+- Thursday: Remote
+- Friday: Office
+
+The actual schedule may vary by department.
+
+Managers may change office attendance requirements based on operational needs.
+
+============================================================
+11. LEAVE POLICY
+============================================================
+
+TechNova provides several categories of leave.
+
+Major categories include:
+- Casual Leave
+- Sick Leave
+- Earned/Annual Leave
+- Public Holiday
+- Maternity Leave
+- Paternity/Parental Leave
+- Bereavement Leave
+- Marriage Leave
+- Compensatory Leave
+- Unpaid Leave
+- Emergency Leave
+
+Exact statutory entitlements may vary by employee location and applicable law.
+
+============================================================
+12. CASUAL LEAVE
+============================================================
+
+Casual leave is intended for short-term personal requirements.
+
+Employees may use casual leave for:
+- Personal appointments
+- Family responsibilities
+- Unexpected personal matters
+- Short breaks from work
+
+Employees should request leave in advance whenever reasonably possible.
+
+============================================================
+13. SICK LEAVE
+============================================================
+
+Sick leave may be used when an employee is unable to work because of illness or medical circumstances.
+
+Employees should inform their manager as soon as possible.
+
+For extended absence, the company may request appropriate medical documentation where permitted.
+
+Employees should not work while seriously ill if doing so creates a health or workplace safety concern.
+
+============================================================
+14. ANNUAL/EARNED LEAVE
+============================================================
+
+Eligible employees receive annual paid leave according to company policy and applicable law.
+
+Employees should submit planned leave requests in advance.
+
+Approval depends on:
+- Business requirements
+- Team availability
+- Project deadlines
+- Existing leave schedules
+
+Managers should make reasonable efforts to accommodate planned leave.
+
+============================================================
+15. MATERNITY LEAVE
+============================================================
+
+Eligible employees may receive maternity leave according to applicable law and company policy.
+
+Employees should contact HR as early as reasonably possible to discuss:
+- Expected leave dates
+- Required documentation
+- Benefits
+- Return-to-work planning
+
+The company will administer maternity benefits in accordance with applicable legal requirements.
+
+============================================================
+16. PATERNITY AND PARENTAL LEAVE
+============================================================
+
+Eligible employees may receive parental leave according to company policy and applicable law.
+
+Parental leave may be used for:
+- Birth of a child
+- Adoption
+- Other qualifying circumstances
+
+Employees should coordinate leave with HR and their manager.
+
+============================================================
+17. BEREAVEMENT LEAVE
+============================================================
+
+Bereavement leave may be provided following the death of an eligible family member.
+
+Employees should notify their manager or HR as soon as reasonably possible.
+
+HR may request documentation when required under company procedures.
+
+============================================================
+18. MARRIAGE LEAVE
+============================================================
+
+Eligible employees may request marriage leave according to company policy.
+
+Marriage leave should normally be requested in advance.
+
+The employee may be required to provide supporting documentation.
+
+============================================================
+19. COMPENSATORY LEAVE
+============================================================
+
+Employees who are formally required to work on an approved company holiday or designated non-working day may become eligible for compensatory leave where company policy permits.
+
+Compensatory leave must normally be approved and used within the specified validity period.
+
+============================================================
+20. UNPAID LEAVE
+============================================================
+
+Unpaid leave may be granted when an employee has exhausted available paid leave or requires extended time away from work.
+
+Approval is discretionary unless otherwise required by law.
+
+During unpaid leave:
+- Salary may not be paid for the applicable period.
+- Certain benefits may be affected.
+- The employee must maintain communication with HR.
+
+============================================================
+21. LEAVE REQUEST PROCEDURE
+============================================================
+
+Employees should:
+1. Log into the employee portal.
+2. Select Leave Request.
+3. Choose leave type.
+4. Enter start date.
+5. Enter end date.
+6. Provide reason if required.
+7. Submit request.
+8. Wait for manager approval.
+
+Approved leave should appear in the employee's leave balance/history.
+
+============================================================
+22. LEAVE CANCELLATION
+============================================================
+
+Employees may cancel approved leave if circumstances change.
+
+Cancellation should be submitted before the leave begins whenever possible.
+
+The manager may need to approve the cancellation.
+
+============================================================
+23. LEAVE DURING PROBATION
+============================================================
+
+Employees on probation may have restricted leave eligibility depending on their employment terms.
+
+Statutory leave rights remain subject to applicable law.
+
+============================================================
+24. PUBLIC HOLIDAY POLICY
+============================================================
+
+The company observes holidays according to the applicable location's holiday calendar.
+
+Employees working in different countries or regions may follow different holiday calendars.
+
+The official holiday calendar is maintained by HR.
+
+============================================================
+25. PAYROLL POLICY
+============================================================
+
+Employees are paid according to their employment agreement.
+
+Payroll may include:
+- Basic salary
+- Allowances
+- Incentives
+- Bonuses
+- Deductions
+- Reimbursements
+- Statutory contributions
+
+Salary is normally processed monthly.
+
+============================================================
+26. SALARY CONFIDENTIALITY
+============================================================
+
+Employees should treat confidential compensation information appropriately.
+
+Managers and HR personnel with access to compensation information must protect employee salary data.
+
+Unauthorized disclosure of confidential payroll information may result in disciplinary action.
+
+============================================================
+27. SALARY REVIEW POLICY
+============================================================
+
+Salary reviews may occur periodically based on:
+- Performance
+- Role responsibilities
+- Market considerations
+- Company performance
+- Promotion
+- Business requirements
+
+A salary review does not automatically guarantee a salary increase.
+
+============================================================
+28. PROMOTION POLICY
+============================================================
+
+Employees may be considered for promotion based on factors such as:
+- Performance
+- Skills
+- Experience
+- Leadership
+- Role requirements
+- Business needs
+
+Promotion decisions are made through the company's performance and organizational processes.
+
+============================================================
+29. BONUS POLICY
+============================================================
+
+Eligible employees may receive performance or company bonuses.
+
+Bonus eligibility and amount may depend on:
+- Individual performance
+- Team performance
+- Company performance
+- Employment status
+- Applicable bonus plan
+
+Bonuses are not guaranteed unless specifically stated in an employment agreement or applicable plan.
+
+============================================================
+30. EXPENSE REIMBURSEMENT POLICY
+============================================================
+
+Employees may be reimbursed for legitimate business expenses.
+
+Examples:
+- Business travel
+- Hotel
+- Transportation
+- Client meals
+- Approved software
+- Business supplies
+
+Employees must submit:
+- Expense amount
+- Date
+- Business purpose
+- Receipt where required
+- Manager approval
+
+False expense claims are prohibited.
+
+============================================================
+31. TRAVEL POLICY
+============================================================
+
+Business travel must generally be approved before booking.
+
+Travel expenses may include:
+- Airfare
+- Train
+- Hotel
+- Local transportation
+- Meals
+
+Employees should use company-approved travel vendors where available.
+
+Employees are expected to choose reasonable travel options based on business requirements.
+
+============================================================
+32. WORK FROM HOME EQUIPMENT
+============================================================
+
+Eligible remote employees may receive company equipment such as:
+- Laptop
+- Monitor
+- Keyboard
+- Mouse
+- Headset
+
+Company equipment remains company property.
+
+Employees must return equipment when requested or upon termination.
+
+============================================================
+33. INFORMATION SECURITY POLICY
+============================================================
+
+Employees must protect company information.
+
+Employees must:
+- Use strong passwords.
+- Enable multi-factor authentication where required.
+- Lock computers when unattended.
+- Avoid sharing credentials.
+- Report suspicious emails.
+- Use approved software.
+- Protect confidential documents.
+
+============================================================
+34. PASSWORD POLICY
+============================================================
+
+Passwords must not be:
+- Shared with coworkers
+- Written in publicly accessible locations
+- Reused across critical systems where prohibited
+- Sent through unsecured communication channels
+
+Employees should use the company's approved password-management solution where available.
+
+============================================================
+35. ACCEPTABLE USE POLICY
+============================================================
+
+Company systems are provided primarily for business purposes.
+
+Employees must not use company systems for:
+- Illegal activity
+- Unauthorized access
+- Malware distribution
+- Credential theft
+- Harassment
+- Unauthorized cryptocurrency mining
+- Circumventing security controls
+
+Limited personal use may be permitted if it does not interfere with work or violate company policies.
+
+============================================================
+36. EMAIL POLICY
+============================================================
+
+Employees must use company email responsibly.
+
+Employees should:
+- Verify unexpected attachments.
+- Avoid clicking suspicious links.
+- Protect confidential information.
+- Use appropriate professional language.
+
+Suspected phishing emails should be reported to the security team.
+
+============================================================
+37. SOCIAL MEDIA POLICY
+============================================================
+
+Employees may use social media in their personal capacity.
+
+Employees must not:
+- Reveal confidential company information.
+- Misrepresent unauthorized statements as company statements.
+- Share confidential customer information.
+- Publish protected internal documents.
+
+Employees speaking officially on behalf of the company must be authorized to do so.
+
+============================================================
+38. CONFIDENTIALITY POLICY
+============================================================
+
+Confidential information may include:
+- Source code
+- Customer information
+- Business plans
+- Financial information
+- Passwords
+- Product roadmaps
+- Internal documents
+- Employee information
+- Security information
+
+Employees must protect confidential information during and after employment.
+
+============================================================
+39. INTELLECTUAL PROPERTY POLICY
+============================================================
+
+Work created by employees as part of their employment may belong to the company according to applicable agreements and law.
+
+Examples include:
+- Software
+- Designs
+- Documentation
+- Algorithms
+- Technical inventions
+- Business processes
+
+Employees must follow their employment agreement and applicable intellectual-property rules.
+
+============================================================
+40. BRING YOUR OWN DEVICE POLICY
+============================================================
+
+Employees may use personal devices for company work only when permitted.
+
+Approved personal devices must satisfy company security requirements.
+
+The company may require:
+- Screen lock
+- Encryption
+- Security software
+- Device management
+- Remote wipe for company data
+
+============================================================
+41. DATA PRIVACY POLICY
+============================================================
+
+Employee and customer personal information must be handled responsibly.
+
+Personal information should only be collected, accessed, used, and shared for legitimate business purposes and in accordance with applicable privacy requirements.
+
+Employees should report suspected data breaches immediately.
+
+============================================================
+42. EMPLOYEE RECORDS POLICY
+============================================================
+
+HR maintains records such as:
+- Employment information
+- Compensation
+- Leave
+- Performance
+- Training
+- Benefits
+- Disciplinary records where applicable
+
+Access to employee records is restricted based on job responsibilities and applicable requirements.
+
+============================================================
+43. PERFORMANCE MANAGEMENT POLICY
+============================================================
+
+Employee performance may be evaluated periodically.
+
+Performance evaluation can consider:
+- Goal achievement
+- Quality of work
+- Productivity
+- Technical ability
+- Communication
+- Collaboration
+- Leadership
+- Customer impact
+
+============================================================
+44. PERFORMANCE IMPROVEMENT PLAN
+============================================================
+
+Employees whose performance does not meet expectations may be placed on a Performance Improvement Plan (PIP).
+
+A PIP may include:
+- Identified performance gaps
+- Expected improvements
+- Specific goals
+- Support/training
+- Review dates
+- Measurement criteria
+
+The duration of a PIP may vary depending on the circumstances.
+
+============================================================
+45. TRAINING AND DEVELOPMENT
+============================================================
+
+Employees may participate in:
+- Technical training
+- Leadership training
+- Security training
+- Compliance training
+- Communication training
+- Professional certifications
+
+Employees are expected to complete mandatory training within the assigned deadline.
+
+============================================================
+46. CODE OF CONDUCT
+============================================================
+
+Employees are expected to:
+- Act professionally.
+- Treat colleagues respectfully.
+- Protect company assets.
+- Follow applicable laws and policies.
+- Avoid conflicts of interest.
+- Maintain confidentiality.
+- Report misconduct.
+
+============================================================
+47. ANTI-HARASSMENT POLICY
+============================================================
+
+Harassment is prohibited.
+
+Examples may include:
+- Unwanted verbal conduct
+- Threatening behavior
+- Offensive communication
+- Repeated inappropriate behavior
+- Unwelcome conduct based on protected characteristics
+
+Employees can report concerns through HR or designated reporting channels.
+
+============================================================
+48. WORKPLACE VIOLENCE POLICY
+============================================================
+
+Threats, intimidation, physical violence, or threatening behavior are prohibited.
+
+Employees should immediately report serious safety concerns to the appropriate security, management, HR, or emergency channel.
+
+============================================================
+49. ANTI-DISCRIMINATION POLICY
+============================================================
+
+The company aims to provide equal employment opportunities and prohibits unlawful discrimination.
+
+Employment decisions should be based on legitimate job-related factors.
+
+Concerns may be reported to HR.
+
+============================================================
+50. CONFLICT OF INTEREST POLICY
+============================================================
+
+Employees must avoid situations where personal interests conflict with company responsibilities.
+
+Potential conflicts may include:
+- Working for a competitor
+- Personal financial interests involving vendors
+- Hiring close relatives without appropriate disclosure
+- Using company information for personal gain
+
+Employees should disclose potential conflicts to HR or management.
+
+============================================================
+51. GIFTS AND ENTERTAINMENT POLICY
+============================================================
+
+Employees must not accept inappropriate gifts or benefits that could influence business decisions.
+
+Cash gifts are generally prohibited.
+
+Reasonable low-value business courtesies may be permitted when consistent with company policy and applicable law.
+
+============================================================
+52. ANTI-BRIBERY POLICY
+============================================================
+
+Employees must not offer, request, promise, or accept bribes.
+
+This includes improper payments or benefits intended to influence business decisions.
+
+Suspected bribery must be reported through appropriate company channels.
+
+============================================================
+53. ALCOHOL AND DRUG POLICY
+============================================================
+
+Employees must not work while impaired by alcohol or illegal drugs.
+
+Possession, distribution, or use of illegal drugs on company premises is prohibited.
+
+The company may have additional requirements for safety-sensitive roles.
+
+============================================================
+54. WORKPLACE DRESS POLICY
+============================================================
+
+Employees should maintain appropriate professional attire based on:
+- Role
+- Customer interaction
+- Workplace environment
+- Safety requirements
+- Company events
+
+Teams may establish reasonable role-specific requirements.
+
+============================================================
+55. REMOTE MEETING ETIQUETTE
+============================================================
+
+Employees attending virtual meetings should:
+- Join on time.
+- Use professional communication.
+- Mute when not speaking where appropriate.
+- Avoid unnecessary interruptions.
+- Protect confidential information visible on screen.
+
+============================================================
+56. EMPLOYEE GRIEVANCE POLICY
+============================================================
+
+Employees may raise workplace concerns regarding:
+- Manager behavior
+- Workplace conduct
+- Compensation
+- Leave
+- Harassment
+- Discrimination
+- Working conditions
+- Policy violations
+
+Employees should first use the appropriate internal reporting channel where practical.
+
+============================================================
+57. GRIEVANCE PROCEDURE
+============================================================
+
+Typical procedure:
+
+Step 1: Employee submits concern.
+Step 2: HR acknowledges the complaint.
+Step 3: HR reviews available information.
+Step 4: Relevant parties may be interviewed.
+Step 5: HR determines appropriate action.
+Step 6: Employee receives an appropriate response subject to confidentiality constraints.
+
+============================================================
+58. WHISTLEBLOWER POLICY
+============================================================
+
+Employees may report suspected:
+- Fraud
+- Corruption
+- Serious misconduct
+- Financial wrongdoing
+- Security violations
+- Legal violations
+
+Retaliation against an employee for making a good-faith report is prohibited.
+
+============================================================
+59. DISCIPLINARY POLICY
+============================================================
+
+Possible disciplinary measures may include:
+1. Verbal counseling
+2. Written warning
+3. Final warning
+4. Suspension where applicable
+5. Termination
+
+The appropriate response depends on the circumstances, seriousness of conduct, history, and applicable requirements.
+
+============================================================
+60. EXAMPLES OF MISCONDUCT
+============================================================
+
+Examples may include:
+- Theft
+- Fraud
+- Workplace violence
+- Harassment
+- Unauthorized access
+- Data theft
+- Falsification of records
+- Repeated unauthorized absence
+- Serious confidentiality violations
+- Deliberate security violations
+
+============================================================
+61. ATTENDANCE FRAUD
+============================================================
+
+Employees must not manipulate attendance records.
+
+Examples include:
+- Asking another employee to mark attendance
+- Sharing attendance credentials
+- Falsifying working hours
+- Manipulating attendance systems
+
+Attendance fraud may result in disciplinary action.
+
+============================================================
+62. MOONLIGHTING / SECONDARY EMPLOYMENT
+============================================================
+
+Employees must disclose outside employment where required by company policy or contract.
+
+Outside work must not:
+- Create a conflict of interest.
+- Use company confidential information.
+- Interfere with job responsibilities.
+- Involve unauthorized use of company resources.
+
+Certain roles or contracts may impose additional restrictions.
+
+============================================================
+63. EMPLOYEE REFERRAL BONUS
+============================================================
+
+Eligible employees may receive a referral bonus when a referred candidate:
+1. Is hired.
+2. Completes the required minimum employment period.
+3. Meets the conditions of the referral program.
+
+The amount of the bonus depends on the role and current referral program.
+
+============================================================
+64. INTERNAL JOB TRANSFER
+============================================================
+
+Employees may apply for internal positions if they meet eligibility requirements.
+
+The process may include:
+- Internal application
+- Manager discussion
+- Interview
+- HR review
+- Transfer approval
+
+Employees should normally complete required transition activities before moving teams.
+
+============================================================
+65. RESIGNATION POLICY
+============================================================
+
+Employees who wish to resign should submit a formal resignation through the designated HR process.
+
+The resignation should include the intended last working date.
+
+Notice requirements are determined by the employee's employment agreement and applicable requirements.
+
+============================================================
+66. NOTICE PERIOD
+============================================================
+
+Employees may be required to serve a notice period after resignation.
+
+During the notice period, employees are expected to:
+- Continue normal responsibilities.
+- Complete knowledge transfer.
+- Return company property.
+- Complete required documentation.
+- Support transition activities.
+
+============================================================
+67. EXIT INTERVIEW
+============================================================
+
+HR may conduct an exit interview to understand:
+- Employee experience
+- Reasons for leaving
+- Management feedback
+- Workplace concerns
+- Improvement opportunities
+
+Participation requirements may depend on company procedure.
+
+============================================================
+68. FINAL SETTLEMENT
+============================================================
+
+After employment ends, HR/payroll may process:
+- Final salary
+- Eligible leave settlement
+- Reimbursements
+- Applicable deductions
+- Other contractual payments
+
+Timing depends on company process and applicable law.
+
+============================================================
+69. COMPANY PROPERTY RETURN
+============================================================
+
+Employees leaving the company must return company property.
+
+Examples:
+- Laptop
+- Phone
+- Access card
+- ID card
+- Keys
+- Security token
+- Documents
+- Other equipment
+
+Failure to return company property may require escalation through appropriate company procedures.
+
+============================================================
+70. ACCESS REVOCATION
+============================================================
+
+When employment ends, company access may be disabled.
+
+This can include:
+- Email
+- VPN
+- Source-code repositories
+- Cloud systems
+- Internal applications
+- Building access
+
+Access removal is part of the company's security offboarding process.
+
+============================================================
+71. RETIREMENT POLICY
+============================================================
+
+Employees reaching applicable retirement criteria will be processed according to company policy, employment terms, and applicable law.
+
+HR will communicate retirement procedures and required documentation.
+
+============================================================
+72. EMPLOYEE BENEFITS
+============================================================
+
+Eligible employees may receive benefits such as:
+- Health insurance
+- Life insurance
+- Accident coverage
+- Retirement-related benefits
+- Wellness programs
+- Learning benefits
+- Employee assistance programs
+
+Benefits vary according to employment category, location, and applicable plan rules.
+
+============================================================
+73. HEALTH INSURANCE
+============================================================
+
+Eligible employees may receive health insurance coverage.
+
+Depending on the plan, coverage may include:
+- Employee
+- Spouse
+- Children
+- Other eligible dependents
+
+Employees should refer to the current insurance plan documents for coverage limits, exclusions, and claim procedures.
+
+============================================================
+74. WELLNESS POLICY
+============================================================
+
+The company may provide wellness initiatives such as:
+- Fitness programs
+- Mental wellness resources
+- Health awareness sessions
+- Ergonomic assessments
+- Wellness workshops
+
+Participation may be voluntary unless otherwise specified.
+
+============================================================
+75. EMPLOYEE ASSISTANCE
+============================================================
+
+Employees may have access to confidential support resources for personal or workplace-related concerns where such programs are available.
+
+The exact services depend on the applicable employee assistance program.
+
+============================================================
+76. WORKPLACE SAFETY
+============================================================
+
+Employees must follow workplace safety requirements.
+
+Employees should:
+- Report hazards.
+- Follow emergency procedures.
+- Keep emergency exits clear.
+- Use required safety equipment.
+- Report workplace accidents promptly.
+
+============================================================
+77. EMERGENCY PROCEDURE
+============================================================
+
+In an emergency, employees should:
+1. Follow emergency instructions.
+2. Leave the building when evacuation is required.
+3. Do not use elevators during designated fire evacuations.
+4. Report to the assigned assembly area.
+5. Follow instructions from emergency personnel.
+
+============================================================
+78. BUSINESS CONTINUITY
+============================================================
+
+The company may activate business continuity procedures during:
+- Natural disasters
+- Cyber incidents
+- Infrastructure failures
+- Major operational disruptions
+- Public emergencies
+
+Employees may be required to work remotely or follow alternative operational procedures.
+
+============================================================
+79. REMOTE SECURITY
+============================================================
+
+Employees working remotely must:
+- Use secure networks.
+- Avoid public computers for confidential work.
+- Keep company devices protected.
+- Avoid sharing devices containing company information.
+- Report lost devices immediately.
+
+============================================================
+80. ARTIFICIAL INTELLIGENCE / GENERATIVE AI POLICY
+============================================================
+
+Employees may use approved AI tools for legitimate business purposes.
+
+Employees must not enter confidential information into an AI system unless the tool and use case have been approved.
+
+Examples of potentially sensitive information include:
+- Customer data
+- Passwords
+- Source code
+- Internal financial information
+- Employee personal information
+- Confidential contracts
+
+AI-generated output must be reviewed by an employee before being used for important business decisions or external communication.
+
+============================================================
+81. COMPANY CHAT AND MESSAGING POLICY
+============================================================
+
+Employees using Slack, Teams, or other company communication platforms must maintain professional communication.
+
+Employees should not use company messaging platforms for:
+- Harassment
+- Threats
+- Confidential information sharing outside authorized groups
+- Illegal activities
+
+============================================================
+82. MONITORING POLICY
+============================================================
+
+Company systems may be monitored for legitimate purposes such as:
+- Security
+- Compliance
+- Troubleshooting
+- Protection of company resources
+
+Monitoring should be conducted according to applicable law and company policy.
+
+============================================================
+83. CAMERA AND RECORDING POLICY
+============================================================
+
+Employees must obtain appropriate authorization before recording confidential meetings or sensitive company discussions.
+
+Recording customer or employee conversations without appropriate authorization is prohibited where restricted by law or company policy.
+
+============================================================
+84. DOCUMENT RETENTION
+============================================================
+
+Employees must retain business documents according to applicable retention schedules.
+
+Employees must not intentionally destroy records that are subject to:
+- Legal holds
+- Investigations
+- Audits
+- Regulatory requirements
+
+============================================================
+85. POLICY VIOLATION REPORTING
+============================================================
+
+Employees who become aware of a serious policy violation should report it through an appropriate channel.
+
+Possible channels include:
+- Manager
+- HR
+- Security team
+- Legal/compliance team
+- Whistleblower channel
+
+============================================================
+86. HR CONTACT POLICY
+============================================================
+
+Employees may contact HR for questions regarding:
+- Leave
+- Payroll
+- Benefits
+- Employment documents
+- Workplace concerns
+- Performance processes
+- Policy interpretation
+
+HR may redirect technical or department-specific issues to the appropriate team.
+
+============================================================
+87. POLICY EXCEPTIONS
+============================================================
+
+Exceptions to HR policies require appropriate authorization.
+
+An employee should not assume that a manager's informal verbal approval overrides a formal company policy.
+
+Exceptions should be documented where appropriate.
+
+============================================================
+88. POLICY UPDATES
+============================================================
+
+The company may modify policies because of:
+- Business changes
+- Legal requirements
+- Organizational changes
+- Security requirements
+- Employee benefit changes
+
+Employees are responsible for reviewing important policy updates communicated by HR.
+
+============================================================
+89. FREQUENTLY ASKED QUESTIONS
+============================================================
+
+Q1. How many hours does a full-time employee normally work?
+
+A full-time employee normally works 40 hours per week, subject to their employment agreement and team schedule.
+
+Q2. Can I work from home whenever I want?
+
+Not necessarily. Remote work depends on role eligibility, business requirements, and applicable approval.
+
+Q3. Who approves leave?
+
+Normally the employee's manager approves leave, while HR maintains the official leave records.
+
+Q4. Can I take leave during probation?
+
+Leave eligibility during probation depends on the applicable employment terms and law.
+
+Q5. What happens if an employee repeatedly arrives late?
+
+Repeated lateness may lead to counseling, warnings, an improvement plan, or further disciplinary action depending on the circumstances.
+
+Q6. Can I use ChatGPT with company data?
+
+Only approved AI tools and approved use cases should be used for company information. Confidential information must not be entered into unapproved AI systems.
+
+Q7. What should I do if I receive a suspicious email?
+
+Do not click suspicious links or attachments. Report the message through the company's security reporting process.
+
+Q8. Can I work for another company?
+
+Outside employment may require disclosure and must not create conflicts of interest or interfere with your responsibilities.
+
+Q9. What happens after resignation?
+
+The employee normally serves the applicable notice period, completes knowledge transfer, returns company property, and completes the exit process.
+
+Q10. Who should I contact for salary issues?
+
+Employees should contact the HR/payroll team through the designated employee support channel.
+
+============================================================
+90. RAG PRACTICE QUESTIONS
+============================================================
+
+Basic Retrieval Questions:
+
+1. What are the standard working hours?
+2. What types of leave does TechNova provide?
+3. What is the probation period?
+4. Who normally approves employee leave?
+
+Multi-Hop Questions:
+
+5. I am a new employee working remotely. What are my onboarding and remote-work responsibilities?
+6. I resigned from the company. What steps do I need to complete before my last working day?
+7. What happens if an employee repeatedly arrives late?
+
+Condition-Based Questions:
+
+8. Can an employee work for another company while working at TechNova?
+9. Can an employee enter confidential company information into ChatGPT?
+10. Can an employee take leave during probation?
+
+Security Questions:
+
+11. What should I do if I receive a phishing email?
+12. What information is considered confidential?
+13. What happens to system access after an employee leaves?
+
+Comparison Questions:
+
+14. What is the difference between casual leave and sick leave?
+15. What is the difference between remote work and hybrid work?
+16. What is the difference between resignation and termination?
+
+Scenario Questions:
+
+17. I lost my company laptop while working remotely. What should I do?
+18. An employee shared their password with a coworker. Which policy does this violate?
+19. An employee wants to use an AI tool with customer data. Is this allowed?
+
+============================================================
+91. RAG CHUNKING RECOMMENDATION
+============================================================
+
+For RAG implementation, do not put the entire handbook into one embedding.
+
+Recommended logical document groups:
+
+employment/
+- employment_types.txt
+- recruitment.txt
+- onboarding.txt
+- probation.txt
+
+attendance/
+- working_hours.txt
+- attendance.txt
+- late_arrival.txt
+- remote_work.txt
+
+leave/
+- casual_leave.txt
+- sick_leave.txt
+- annual_leave.txt
+- maternity_leave.txt
+- parental_leave.txt
+- bereavement_leave.txt
+
+compensation/
+- payroll.txt
+- salary_review.txt
+- promotion.txt
+- bonus.txt
+- reimbursement.txt
+
+security/
+- information_security.txt
+- password.txt
+- acceptable_use.txt
+- ai_policy.txt
+- data_privacy.txt
+
+conduct/
+- code_of_conduct.txt
+- harassment.txt
+- discrimination.txt
+- conflict_of_interest.txt
+- disciplinary.txt
+
+exit/
+- resignation.txt
+- notice_period.txt
+- final_settlement.txt
+- exit_interview.txt
+
+Recommended metadata for each chunk:
+
+document: employee_hr_handbook
+category: leave
+policy: sick_leave
+version: 3.0
+effective_date: 2026-01-01
+department: HR
+source: HR Policy Handbook
+
+RAG pipeline:
+
+User Question
+    ->
+Embedding
+    ->
+Vector Database
+    ->
+Similarity Search
+    ->
+Top-K Relevant HR Policy Chunks
+    ->
+LLM
+    ->
+Grounded Answer
+
+Use this dataset to practice retrieval quality, metadata filtering, chunking, top-k retrieval, reranking, hallucination detection, and source attribution.
