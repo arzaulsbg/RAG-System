@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 ##Env variable
-groq_api_key=os.getenv("GROQ_API_KEY")
-jina_api_key=os.getenv("JINA_API_KEY")
+GROQ_API_KEY=os.getenv("GROQ_API_KEY")
+JINA_API_KEY=os.getenv("JINA_API_KEY")
 
 ##Data file path
 DATA_FILE_PATH=os.path.join("data","hr_policy.txt")

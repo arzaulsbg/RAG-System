@@ -8,7 +8,7 @@ def split_into_chunks(documents):
     Split documents into small overlapping chunk.
     """
     text_splitter=RecursiveCharacterTextSplitter(
-        chuck_size=config.CHUNK_SIZE,
+        chunk_size=config.CHUNK_SIZE,
         chunk_overlap=config.CHUNK_OVERLAP
     )
     return text_splitter.split_documents(documents)

@@ -24,7 +24,7 @@ def save_vector_store(vector_store,path:str=config.vector_STORE_PATH)->None:
     Save the FAISS index to disk
     so we don't have to rebuild it every time.
     """
-    vector_store.save_loacl(path)
+    vector_store.save_local(path)
 ## load vectore store
 def load_vector_store(path:str=config.vector_STORE_PATH):
     """
@@ -36,9 +36,9 @@ def load_vector_store(path:str=config.vector_STORE_PATH):
 
 ## check vector_store exist or not
 
-def vector_store_exist(path:str=config.vector_STORE_PATH)->bool:
+def vector_store_exists(path:str=config.vector_STORE_PATH)->bool:
     """check if a saved FAISS index already exist on disk"""
-    return os.path.exists(os.path.join(path,"index_faiss"))
+    return os.path.exists(os.path.join(path,"index.faiss"))
 
 
 ##Retrieve data
