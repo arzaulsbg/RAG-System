@@ -7,6 +7,10 @@ langchain
 langchain-core
 langchain-community
 
+# observability and evalutaion tracing
+langsmith
+
+
 # LLM provider
 langchain-groq
 langchain-text-splitters

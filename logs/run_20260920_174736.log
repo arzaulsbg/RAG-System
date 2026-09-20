@@ -1,0 +1,46 @@
+2026-09-20 17:47:36,362 | INFO | hr_assistant.pipeline | Building HR assistant......
+2026-09-20 17:47:36,363 | INFO | hr_assistant.tracing | LangSmith tracing ENABLED - project 'HR_Assistant', traces at https://smith.langchain.com
+2026-09-20 17:47:36,363 | INFO | hr_assistant.vector_store | Checking that already FAISS inde exist
+2026-09-20 17:47:36,363 | INFO | hr_assistant.pipeline | Vector store already exist on disk, resuing that from disk
+2026-09-20 17:47:36,364 | INFO | hr_assistant.vector_store | Loadig FAISS from 'data\faiss_index' 
+2026-09-20 17:47:36,364 | INFO | hr_assistant.embeddings | Initializing embeddings model 'jina-embeddings-v2-base-en'
+2026-09-20 17:47:36,371 | INFO | faiss.loader | Loading faiss with AVX2 support.
+2026-09-20 17:47:36,372 | INFO | faiss.loader | Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-09-20 17:47:36,373 | INFO | faiss.loader | Loading faiss.
+2026-09-20 17:47:36,409 | INFO | faiss.loader | Successfully loaded faiss.
+2026-09-20 17:47:36,436 | INFO | hr_assistant.vector_store | Creating retriever with top_k=3
+2026-09-20 17:47:36,446 | INFO | hr_assistant.llm | Initializing LLM via Portkey
+2026-09-20 17:47:36,880 | INFO | hr_assistant.agent | Creating HR agent with 1 tool(s)
+2026-09-20 17:47:36,890 | INFO | hr_assistant.agent | HR agent ready
+2026-09-20 17:47:36,890 | INFO | hr_assistant.pipeline | Hr assistant is ready to take questions
+2026-09-20 17:47:45,207 | INFO | __main__ | ===Streamlit run: new question recieved ===
+2026-09-20 17:47:45,210 | INFO | hr_assistant.pipeline | User question: hey heillo
+2026-09-20 17:47:46,146 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 17:47:46,197 | INFO | hr_assistant.pipeline | Final answer: Hello! How can I help you today?
+2026-09-20 17:47:52,263 | INFO | __main__ | ===Streamlit run: new question recieved ===
+2026-09-20 17:47:52,264 | INFO | hr_assistant.pipeline | User question: kuch nhi
+2026-09-20 17:47:53,095 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 17:47:53,102 | INFO | hr_assistant.pipeline | Final answer: Hello! How can I assist you today? If you have any questions about leave policies, work‑from‑home arrangements, probation, notice periods, reimbursements, code of conduct, holidays, or the exit process, just let me know!
+2026-09-20 17:48:11,942 | INFO | __main__ | ===Streamlit run: new question recieved ===
+2026-09-20 17:48:11,944 | INFO | hr_assistant.pipeline | User question: leave policy ke baare me batau
+2026-09-20 17:48:12,790 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 17:48:12,798 | INFO | hr_assistant.tools | search_hr_policy called with query: leave policy
+2026-09-20 17:48:21,162 | INFO | hr_assistant.tools | Found 3 matching chunk(s)
+2026-09-20 17:48:22,778 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 17:48:22,783 | INFO | hr_assistant.pipeline | Final answer: **Leave Policy (छुट्टी नीति)**  
+
+| प्रकार | विवरण |
+|--------|--------|
+| **वार्षिक अवकाश (Annual Leave)** | - सभी पूर्ण‑कालिक कर्मचारियों को प्रति कैलेंडर वर्ष **20 दिन** वेतन सहित वार्षिक अवकाश मिलता है।<br>- अवकाश का अनुरोध **HR पोर्टल** के माध्यम से कम से कम **5 कार्य दिवस** पहले जमा करना आवश्यक है। |
+| **अवकाश का आगे का उपयोग (Carry‑forward)** | - अनउपयोगित वार्षिक अवकाश को अगले वर्ष में **अधिकतम 5 दिन** तक ले जाया जा सकता है। |
+| **सिक्‍स लीव (Sick Leave)** | - प्रति वर्ष **10 दिन** वेतन सहित बीमारी के कारण अवकाश मिलता है।<br>- यदि बीमारी लगातार **2 दिन से अधिक** रहती है, तो **मेडिकल सर्टिफ़िकेट** प्रस्तुत करना अनिवार्य है। |
+| **अन्य नोट्स** | - वार्षिक और बीमारी की छुट्टियों को एक‑दूसरे से अलग माना जाता है; यानी बीमारी के दिन वार्षिक अवकाश में नहीं गिने जाते।<br>- अवकाश के दौरान वेतन जारी रहता है, बशर्ते कि सभी आवश्यक दस्तावेज़ (जैसे मेडिकल सर्टिफ़िकेट) समय पर प्रस्तुत किए जाएँ। |
+
+**कैसे अप्लाई करें:**  
+1. HR पोर्टल में लॉग‑इन करें।  
+2. “Leave Request” सेक्शन चुनें।  
+3. आवश्यक विवरण (तारीख, प्रकार, कारण) भरें और **कम से कम 5 कार्य दिवस** पहले सबमिट करें।  
+4. आपका मैनेजर और HR टीम अनुरोध को अनुमोदित करेंगे।  
+
+यदि आपके पास और कोई प्रश्न है या किसी विशेष स्थिति के बारे में जानकारी चाहिए, तो बेझिझक पूछें! 🙌

@@ -1,0 +1,23 @@
+2026-09-20 15:50:04,143 | INFO | hr_assistant.pipeline | Building HR assistant......
+2026-09-20 15:50:04,143 | INFO | hr_assistant.vector_store | Checking that already FAISS inde exist
+2026-09-20 15:50:04,144 | INFO | hr_assistant.pipeline | Vector store already exist on disk, resuing that from disk
+2026-09-20 15:50:04,144 | INFO | hr_assistant.vector_store | Loadig FAISS from 'data\faiss_index' 
+2026-09-20 15:50:04,144 | INFO | hr_assistant.embeddings | Initializing embeddings model 'jina-embeddings-v2-base-en'
+2026-09-20 15:50:04,147 | INFO | faiss.loader | Loading faiss with AVX2 support.
+2026-09-20 15:50:04,148 | INFO | faiss.loader | Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-09-20 15:50:04,148 | INFO | faiss.loader | Loading faiss.
+2026-09-20 15:50:04,173 | INFO | faiss.loader | Successfully loaded faiss.
+2026-09-20 15:50:04,181 | INFO | hr_assistant.vector_store | Creating retriever with top_k=3
+2026-09-20 15:50:04,184 | INFO | hr_assistant.llm | Initializing LLM via Portkey
+2026-09-20 15:50:04,405 | INFO | hr_assistant.agent | Creating HR agent with 1 tool(s)
+2026-09-20 15:50:04,414 | INFO | hr_assistant.agent | HR agent ready
+2026-09-20 15:50:04,415 | INFO | hr_assistant.pipeline | Hr assistant is ready to take questions
+2026-09-20 15:50:25,787 | INFO | __main__ | ===Streamlit run: new question recieved ===
+2026-09-20 15:50:25,789 | INFO | hr_assistant.pipeline | User question: hello
+2026-09-20 15:50:26,627 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:50:26,648 | INFO | hr_assistant.pipeline | Final answer: Hello! How can I help you today?
+2026-09-20 15:50:43,216 | INFO | __main__ | ===Streamlit run: new question recieved ===
+2026-09-20 15:50:43,218 | INFO | hr_assistant.pipeline | User question: who are you?
+2026-09-20 15:50:43,946 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:50:43,948 | INFO | hr_assistant.pipeline | Final answer: I’m your friendly HR assistant—here to help you with any questions you have about company policies, benefits, procedures, and anything else related to HR. Feel free to ask!
