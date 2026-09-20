@@ -25,6 +25,7 @@ logger = get_logger(__name__)
 
 from hr_assistant.tracing import check_langsmith_tracing
 
+from hr_assistant.guardrails import REFUSAL_MESSAGE , check_input , check_output
 
 def build_vector_store_for_document(file_path:str=config.DATA_FILE_PATH):
     """
@@ -66,12 +67,25 @@ def build_hr_assistant(file_path:str=config.DATA_FILE_PATH):
 
 #invoke agent
 
-def ask(agent,question:str)->str:
-    "Ask the agent a question and return its final answer as plain text."
-    logger.info("User question: %s",question)
-    response = agent.invoke({
-        "messages":[{"role":"user","content":question}]
-    })
-    answer=response["messages"][-1].content
-    logger.info("Final answer: %s",answer)
+def ask(agent, question: str) -> str:
+    """Ask the agent a question and
+    return its final answer as plain text."""
+    logger.info("User question: %s", question)
+    
+    # input guard - to get safe inputs 
+    
+    input_is_safe, _ = check_input(question)
+    if not input_is_safe:
+        return REFUSAL_MESSAGE
+    
+    response = agent.invoke({"messages": [{"role": "user", "content": question}]})
+    answer = response["messages"][-1].content
+    logger.info("Final answer: %s", answer)
+    
+    # output guard - to check if agent gives safe answer 
+    output_is_safe, _ = check_output(answer)
+    if not output_is_safe:
+        return REFUSAL_MESSAGE
+    
+    
     return answer
