@@ -20,13 +20,21 @@ from hr_assistant.vector_store import (
     save_vector_store
 )
 
+from hr_assistant.logger import get_logger
+logger = get_logger(__name__)
+
+from hr_assistant.tracing import check_langsmith_tracing
+
+
 def build_vector_store_for_document(file_path:str=config.DATA_FILE_PATH):
     """
     load + split + embed the document, resuse a saved index if we have one."""
     if vector_store_exists():
         print("Found a saved vector store on disk,loading it (fast,no re embedding)")
+        logger.info("Vector store already exist on disk, resuing that from disk")
         return load_vector_store()
     print("No saved vector store found,building one from sratch...")
+    logger.info("No vectore store on disk, building one from scratch")
     documents=load_document(file_path)
     chunks=split_into_chunks(documents)
     print(f"Loaded '{file_path}' and split into {len(chunks)} chunks.")
@@ -42,14 +50,17 @@ def build_vector_store_for_document(file_path:str=config.DATA_FILE_PATH):
 
 def build_hr_assistant(file_path:str=config.DATA_FILE_PATH):
     """Build the full RAG agent,ready to answer questions."""
+    logger.info("Building HR assistant......")
     # check api is correct or not 
     config.check_api_keys()
+    check_langsmith_tracing()
 
     vector_store=build_vector_store_for_document(file_path)
     retriever = get_retriever(vector_store)
     search_tool = create_search_tool(retriever)
     llm = get_llm()
     agent = create_hr_agent(llm, [search_tool])
+    logger.info("Hr assistant is ready to take questions")
     return agent
 
 
@@ -57,7 +68,10 @@ def build_hr_assistant(file_path:str=config.DATA_FILE_PATH):
 
 def ask(agent,question:str)->str:
     "Ask the agent a question and return its final answer as plain text."
+    logger.info("User question: %s",question)
     response = agent.invoke({
         "messages":[{"role":"user","content":question}]
     })
-    return response["messages"][-1].content
+    answer=response["messages"][-1].content
+    logger.info("Final answer: %s",answer)
+    return answer

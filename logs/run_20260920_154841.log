@@ -1,0 +1,41 @@
+2026-09-20 15:48:42,945 | INFO | __main__ | ===CLI started===
+2026-09-20 15:48:42,945 | INFO | hr_assistant.pipeline | Building HR assistant......
+2026-09-20 15:48:42,946 | INFO | hr_assistant.vector_store | Checking that already FAISS inde exist
+2026-09-20 15:48:42,946 | INFO | hr_assistant.pipeline | Vector store already exist on disk, resuing that from disk
+2026-09-20 15:48:42,946 | INFO | hr_assistant.vector_store | Loadig FAISS from 'data\faiss_index' 
+2026-09-20 15:48:42,947 | INFO | hr_assistant.embeddings | Initializing embeddings model 'jina-embeddings-v2-base-en'
+2026-09-20 15:48:43,020 | INFO | faiss.loader | Loading faiss with AVX2 support.
+2026-09-20 15:48:43,021 | INFO | faiss.loader | Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-09-20 15:48:43,021 | INFO | faiss.loader | Loading faiss.
+2026-09-20 15:48:45,569 | INFO | faiss.loader | Successfully loaded faiss.
+2026-09-20 15:48:45,586 | INFO | hr_assistant.vector_store | Creating retriever with top_k=3
+2026-09-20 15:48:45,590 | INFO | hr_assistant.llm | Initializing LLM via Portkey
+2026-09-20 15:48:46,101 | INFO | hr_assistant.agent | Creating HR agent with 1 tool(s)
+2026-09-20 15:48:46,126 | INFO | hr_assistant.agent | HR agent ready
+2026-09-20 15:48:46,126 | INFO | hr_assistant.pipeline | Hr assistant is ready to take questions
+2026-09-20 15:48:46,126 | INFO | hr_assistant.pipeline | User question: How many paid annual leave days do I get?
+2026-09-20 15:48:47,051 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:48:47,077 | INFO | hr_assistant.tools | search_hr_policy called with query: paid annual leave days
+2026-09-20 15:48:48,132 | INFO | hr_assistant.tools | Found 3 matching chunk(s)
+2026-09-20 15:48:48,794 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:48:48,797 | INFO | hr_assistant.pipeline | Final answer: Full‑time employees receive **20 paid annual leave days** each calendar year.
+2026-09-20 15:48:48,800 | INFO | __main__ | ===CLI run finished===
+2026-09-20 15:48:48,801 | INFO | hr_assistant.pipeline | User question: What is the notice period during probation?
+2026-09-20 15:48:49,405 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:48:49,410 | INFO | hr_assistant.tools | search_hr_policy called with query: notice period during probation
+2026-09-20 15:48:53,455 | INFO | hr_assistant.tools | Found 3 matching chunk(s)
+2026-09-20 15:48:54,108 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:48:54,112 | INFO | hr_assistant.pipeline | Final answer: During your probation period, the required notice period is **15 days** if you decide to resign. (The standard notice period after probation is 30 days.)
+2026-09-20 15:48:54,112 | INFO | __main__ | ===CLI run finished===
+2026-09-20 15:48:54,113 | INFO | hr_assistant.pipeline | User question: Can I work from home every day?
+2026-09-20 15:48:54,832 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:48:54,838 | INFO | hr_assistant.tools | search_hr_policy called with query: work from home policy daily work from home
+2026-09-20 15:48:55,361 | INFO | hr_assistant.tools | Found 3 matching chunk(s)
+2026-09-20 15:48:56,192 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:48:56,200 | INFO | hr_assistant.pipeline | Final answer: According to our **Work‑From‑Home policy**, employees are allowed to work from home **up to 2 days per week**, and each day must be approved by your manager.  
+
+A completely remote arrangement (i.e., working from home every day) is only possible if you obtain **written approval from the department head**. Without that special approval, daily remote work is not permitted.  
+
+If you’re interested in a more flexible or fully remote schedule, I recommend discussing it with your manager first and, if needed, submitting a formal request to your department head for written approval.
+2026-09-20 15:48:56,201 | INFO | __main__ | ===CLI run finished===

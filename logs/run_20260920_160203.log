@@ -1,0 +1,41 @@
+2026-09-20 16:02:04,110 | INFO | hr_assistant.pipeline | Building HR assistant......
+2026-09-20 16:02:04,110 | INFO | hr_assistant.vector_store | Checking that already FAISS inde exist
+2026-09-20 16:02:04,110 | INFO | hr_assistant.pipeline | Vector store already exist on disk, resuing that from disk
+2026-09-20 16:02:04,111 | INFO | hr_assistant.vector_store | Loadig FAISS from 'data\faiss_index' 
+2026-09-20 16:02:04,111 | INFO | hr_assistant.embeddings | Initializing embeddings model 'jina-embeddings-v2-base-en'
+2026-09-20 16:02:04,117 | INFO | faiss.loader | Loading faiss with AVX2 support.
+2026-09-20 16:02:04,117 | INFO | faiss.loader | Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-09-20 16:02:04,118 | INFO | faiss.loader | Loading faiss.
+2026-09-20 16:02:05,620 | INFO | faiss.loader | Successfully loaded faiss.
+2026-09-20 16:02:05,636 | INFO | hr_assistant.vector_store | Creating retriever with top_k=3
+2026-09-20 16:02:05,639 | INFO | hr_assistant.llm | Initializing LLM via Portkey
+2026-09-20 16:02:05,997 | INFO | hr_assistant.agent | Creating HR agent with 1 tool(s)
+2026-09-20 16:02:06,007 | INFO | hr_assistant.agent | HR agent ready
+2026-09-20 16:02:06,008 | INFO | hr_assistant.pipeline | Hr assistant is ready to take questions
+2026-09-20 16:03:01,441 | INFO | __main__ | ===Streamlit run: new question recieved ===
+2026-09-20 16:03:01,443 | INFO | hr_assistant.pipeline | User question: hello
+2026-09-20 16:03:02,484 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:03:02,509 | INFO | hr_assistant.pipeline | Final answer: Hello! How can I help you today?
+2026-09-20 16:03:31,289 | INFO | __main__ | ===Streamlit run: new question recieved ===
+2026-09-20 16:03:31,292 | INFO | hr_assistant.pipeline | User question: what are the policy for leave
+2026-09-20 16:03:32,006 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:03:32,015 | INFO | hr_assistant.tools | search_hr_policy called with query: leave policy
+2026-09-20 16:03:42,461 | INFO | hr_assistant.tools | Found 3 matching chunk(s)
+2026-09-20 16:03:43,906 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:03:43,910 | INFO | hr_assistant.pipeline | Final answer: **Leave Policy Overview**
+
+| Leave Type | Entitlement | Key Requirements |
+|------------|-------------|-------------------|
+| **Annual (Paid) Leave** | 20 days per calendar year (full‑time employees) | • Submit leave request through the HR portal **at least 5 working days** before the intended start date.<br>• Unused days can be carried forward **up to 5 days** into the next year. |
+| **Sick Leave** | 10 paid days per year | • A medical certificate is required **if the sick leave exceeds 2 consecutive days**. |
+| **Carry‑Forward** | Up to 5 unused annual leave days may be transferred to the next calendar year. | No carry‑forward for sick leave; it must be used within the year it is accrued. |
+
+**How to Apply**
+
+1. Log in to the HR portal.  
+2. Choose the appropriate leave type (Annual or Sick).  
+3. Enter the dates and provide any required documentation (e.g., medical certificate for sick leave > 2 days).  
+4. Submit the request at least 5 working days before the start date for annual leave.  
+
+If you need more details or have a specific situation (e.g., maternity leave, bereavement leave, etc.) that isn’t covered here, let me know and I can check the policy for you.
