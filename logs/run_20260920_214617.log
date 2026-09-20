@@ -1,0 +1,49 @@
+2026-09-20 21:46:22,124 | INFO | hr_assistant.pipeline | Building HR assistant......
+2026-09-20 21:46:22,125 | INFO | hr_assistant.tracing | LangSmith tracing ENABLED - project 'HR_Assistant', traces at https://smith.langchain.com
+2026-09-20 21:46:24,283 | INFO | httpx | HTTP Request: GET https://788a7213-58e5-4332-a1b0-70664308d1a1.sa-east-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2026-09-20 21:46:24,367 | INFO | httpx | HTTP Request: GET https://788a7213-58e5-4332-a1b0-70664308d1a1.sa-east-1-0.aws.cloud.qdrant.io:6333/collections/hr_policy/exists "HTTP/1.1 200 OK"
+2026-09-20 21:46:24,370 | INFO | hr_assistant.pipeline | No Qdrant Cloud collection found, building one from scratch
+2026-09-20 21:46:24,373 | INFO | hr_assistant.document_loader | Loading document from 'data\hr_policy.txt'
+2026-09-20 21:46:24,378 | INFO | hr_assistant.document_loader | Loaded 1 document(s)
+2026-09-20 21:46:24,380 | INFO | hr_assistant.splitter | Split document(s) into 9 chunk(s)
+2026-09-20 21:46:24,381 | INFO | hr_assistant.vector_store | Embedding 9 chunk(s) and uploading to Qdrant collection 'hr_policy'...
+2026-09-20 21:46:24,382 | INFO | hr_assistant.embeddings | Initializing embeddings model 'jina-embeddings-v2-base-en'
+2026-09-20 21:46:25,743 | INFO | httpx | HTTP Request: GET https://788a7213-58e5-4332-a1b0-70664308d1a1.sa-east-1-0.aws.cloud.qdrant.io:6333/collections/hr_policy/exists "HTTP/1.1 200 OK"
+2026-09-20 21:46:25,744 | INFO | httpx | HTTP Request: GET https://788a7213-58e5-4332-a1b0-70664308d1a1.sa-east-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2026-09-20 21:46:28,590 | INFO | httpx | HTTP Request: PUT https://788a7213-58e5-4332-a1b0-70664308d1a1.sa-east-1-0.aws.cloud.qdrant.io:6333/collections/hr_policy "HTTP/1.1 200 OK"
+2026-09-20 21:46:31,958 | INFO | httpx | HTTP Request: PUT https://788a7213-58e5-4332-a1b0-70664308d1a1.sa-east-1-0.aws.cloud.qdrant.io:6333/collections/hr_policy/points?wait=true "HTTP/1.1 200 OK"
+2026-09-20 21:46:31,959 | INFO | hr_assistant.vector_store | Uploaded to Qdrant collection 'hr_policy'
+2026-09-20 21:46:31,960 | INFO | hr_assistant.vector_store | Creating retriever with top_k=3
+2026-09-20 21:46:31,963 | INFO | hr_assistant.llm | Initializing LLM via Portkey
+2026-09-20 21:46:32,020 | INFO | hr_assistant.agent | Creating HR agent with 1 tool(s)
+2026-09-20 21:46:32,030 | INFO | hr_assistant.agent | HR agent ready
+2026-09-20 21:46:32,030 | INFO | hr_assistant.pipeline | Hr assistant is ready to take questions
+2026-09-20 22:02:39,726 | INFO | __main__ | ===Streamlit run: new question recieved ===
+2026-09-20 22:02:39,728 | INFO | hr_assistant.pipeline | User question: tell me leave policy
+2026-09-20 22:02:40,448 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 22:02:41,297 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 22:02:41,306 | INFO | hr_assistant.tools | search_hr_policy called with query: leave policy
+2026-09-20 22:02:43,526 | INFO | httpx | HTTP Request: POST https://788a7213-58e5-4332-a1b0-70664308d1a1.sa-east-1-0.aws.cloud.qdrant.io:6333/collections/hr_policy/points/query "HTTP/1.1 200 OK"
+2026-09-20 22:02:43,529 | INFO | hr_assistant.tools | Found 3 matching chunk(s)
+2026-09-20 22:02:44,634 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 22:02:44,643 | INFO | hr_assistant.pipeline | Final answer: **Leave Policy Overview**
+
+| Type of Leave | Entitlement | Key Details |
+|---------------|------------|-------------|
+| **Annual (Paid) Leave** | **20 days per calendar year** | • Submit leave requests via the HR portal **at least 5 working days** before the start date.<br>• Up to **5 unused days** can be carried forward to the next year. |
+| **Sick Leave** | **10 paid days per year** | • Separate from annual leave.<br>• A **medical certificate** is required if the sick leave exceeds **2 consecutive days**. |
+
+**How to Request Leave**
+
+1. Log in to the **HR portal**.  
+2. Choose the appropriate leave type (Annual or Sick).  
+3. Enter the dates and provide any required documentation (e.g., medical certificate for extended sick leave).  
+4. Submit the request **≥ 5 working days** in advance for annual leave (sick leave can be reported as soon as possible).  
+
+**Carry‑Forward Rules**
+
+- You may roll over **up to 5 unused annual leave days** to the next calendar year.  
+- Any remaining annual leave beyond the 5‑day carry‑forward limit will be forfeited at year‑end.  
+
+If you have any further questions or need help submitting a request, just let me know!
+2026-09-20 22:02:45,182 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
