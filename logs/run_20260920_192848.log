@@ -1,0 +1,16 @@
+2026-09-20 19:28:49,548 | INFO | hr_assistant.pipeline | Building HR assistant......
+2026-09-20 19:28:49,549 | INFO | hr_assistant.tracing | LangSmith tracing ENABLED - project 'HR_Assistant', traces at https://smith.langchain.com
+2026-09-20 19:28:49,549 | INFO | hr_assistant.vector_store | Checking that already FAISS inde exist
+2026-09-20 19:28:49,549 | INFO | hr_assistant.pipeline | Vector store already exist on disk, resuing that from disk
+2026-09-20 19:28:49,550 | INFO | hr_assistant.vector_store | Loadig FAISS from 'data\faiss_index' 
+2026-09-20 19:28:49,550 | INFO | hr_assistant.embeddings | Initializing embeddings model 'jina-embeddings-v2-base-en'
+2026-09-20 19:28:49,558 | INFO | faiss.loader | Loading faiss with AVX2 support.
+2026-09-20 19:28:49,558 | INFO | faiss.loader | Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-09-20 19:28:49,558 | INFO | faiss.loader | Loading faiss.
+2026-09-20 19:28:49,652 | INFO | faiss.loader | Successfully loaded faiss.
+2026-09-20 19:28:49,670 | INFO | hr_assistant.vector_store | Creating retriever with top_k=3
+2026-09-20 19:28:49,675 | INFO | hr_assistant.llm | Initializing LLM via Portkey
+2026-09-20 19:28:49,719 | INFO | hr_assistant.agent | Creating HR agent with 1 tool(s)
+2026-09-20 19:28:49,730 | INFO | hr_assistant.agent | HR agent ready
+2026-09-20 19:28:49,731 | INFO | hr_assistant.pipeline | Hr assistant is ready to take questions

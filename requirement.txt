@@ -17,6 +17,9 @@ langchain-text-splitters
 
 # vectore store
 FAISS-cpu
+#cloud vector
+langchain-qdrant
+qdrant-client
 
 # notebook
 jupyter

@@ -24,8 +24,14 @@ LANGSMITH_PROJECT = os.getenv("LANGSMITH_PROJECT")
 DATA_FILE_PATH=os.path.join("data","hr_policy.txt")
 
 ##vector store
+# local
+# vector_STORE_PATH=os.path.join("data","faiss_index")
+# cloud memory
 
-vector_STORE_PATH=os.path.join("data","faiss_index")
+QDRANT_API_KEY=os.getenv("QDRANT_API_KEY")
+QDRANT_URL=os.getenv("QDRANT_URL")
+QDRANT_COLLECTION_NAME=os.getenv("QDRANT_COLLECTION_NAME","hr_policy")
+
 
 ##LLM models and Embeddign model
 

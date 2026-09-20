@@ -16,8 +16,7 @@ from hr_assistant.vector_store import (
     build_vector_store,
     get_retriever,
     load_vector_store,
-    vector_store_exists,
-    save_vector_store
+    vector_store_exists
 )
 
 from hr_assistant.logger import get_logger
@@ -27,26 +26,26 @@ from hr_assistant.tracing import check_langsmith_tracing
 
 from hr_assistant.guardrails import REFUSAL_MESSAGE , check_input , check_output
 
-def build_vector_store_for_document(file_path:str=config.DATA_FILE_PATH):
-    """
-    load + split + embed the document, resuse a saved index if we have one."""
+def build_vector_store_for_document(file_path: str = config.DATA_FILE_PATH):
+    """Load + split + embed the document, 
+    reusing the Qdrant Cloud collection if we have one."""
     if vector_store_exists():
-        print("Found a saved vector store on disk,loading it (fast,no re embedding)")
-        logger.info("Vector store already exist on disk, resuing that from disk")
+        print("Found an existing Qdrant Cloud collection, connecting to it (fast, no re-embedding).")
+        logger.info("Qdrant Cloud collection already exists, reusing it")
         return load_vector_store()
-    print("No saved vector store found,building one from sratch...")
-    logger.info("No vectore store on disk, building one from scratch")
-    documents=load_document(file_path)
-    chunks=split_into_chunks(documents)
-    print(f"Loaded '{file_path}' and split into {len(chunks)} chunks.")
 
-    vector_store=build_vector_store(chunks)
-    save_vector_store(vector_store)
-    print("Vector store build and saved to disk for next time.")
+    print("No Qdrant Cloud collection found, building one from scratch...")
+    logger.info("No Qdrant Cloud collection found, building one from scratch")
+    documents = load_document(file_path)
+    chunks = split_into_chunks(documents)
+    print(f"Loaded '{file_path}' and split it into {len(chunks)} chunks.")
+
+    vector_store = build_vector_store(chunks)
+    print("Vector store built and uploaded to Qdrant Cloud.")
     return vector_store
 
 
-## build_agent for anser
+## build_agent for answer---data retriever
 
 
 def build_hr_assistant(file_path:str=config.DATA_FILE_PATH):
