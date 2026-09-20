@@ -1,1 +1,5 @@
 .env
+
+ragassistant
+__pycache__
+data/faiss_index
